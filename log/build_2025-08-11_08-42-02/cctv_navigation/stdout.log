@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/cctv_navigation/cctv_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/cctv_navigation/cctv_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/cctv_navigation/cctv_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/cctv_navigation/cctv_navigation.egg-info/requires.txt
+writing top-level names to ../../build/cctv_navigation/cctv_navigation.egg-info/top_level.txt
+reading manifest file '../../build/cctv_navigation/cctv_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/cctv_navigation/cctv_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cctv_navigation/astar_debug_navigation.py -> /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/build/lib/cctv_navigation
+running install
+running install_lib
+copying /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/build/lib/cctv_navigation/astar_debug_navigation.py -> /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages/cctv_navigation
+byte-compiling /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages/cctv_navigation/astar_debug_navigation.py to astar_debug_navigation.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages/cctv_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/cctv_navigation/cctv_navigation.egg-info to /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages/cctv_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing astar_debug_navigation script to /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/cctv_navigation
+writing list of installed files to '/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/install.log'

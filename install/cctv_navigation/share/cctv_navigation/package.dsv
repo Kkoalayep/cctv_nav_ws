@@ -1,0 +1,6 @@
+source;share/cctv_navigation/hook/pythonpath.ps1
+source;share/cctv_navigation/hook/pythonpath.dsv
+source;share/cctv_navigation/hook/pythonpath.sh
+source;share/cctv_navigation/hook/ament_prefix_path.ps1
+source;share/cctv_navigation/hook/ament_prefix_path.dsv
+source;share/cctv_navigation/hook/ament_prefix_path.sh

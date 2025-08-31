@@ -1,0 +1,22 @@
+[3.200s] Invoking command in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_perception': PYTHONPATH=/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cctv_perception build --build-base /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_perception/build install --record /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_perception/install.log --single-version-externally-managed install_data
+[3.951s] running egg_info
+[3.952s] writing ../../build/cctv_perception/cctv_perception.egg-info/PKG-INFO
+[3.953s] writing dependency_links to ../../build/cctv_perception/cctv_perception.egg-info/dependency_links.txt
+[3.953s] writing entry points to ../../build/cctv_perception/cctv_perception.egg-info/entry_points.txt
+[3.954s] writing requirements to ../../build/cctv_perception/cctv_perception.egg-info/requires.txt
+[3.954s] writing top-level names to ../../build/cctv_perception/cctv_perception.egg-info/top_level.txt
+[3.958s] reading manifest file '../../build/cctv_perception/cctv_perception.egg-info/SOURCES.txt'
+[3.960s] writing manifest file '../../build/cctv_perception/cctv_perception.egg-info/SOURCES.txt'
+[3.961s] running build
+[3.961s] running build_py
+[3.962s] running install
+[3.964s] running install_lib
+[3.970s] running install_data
+[3.970s] running install_egg_info
+[3.975s] removing '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_perception/lib/python3.10/site-packages/cctv_perception-0.0.0-py3.10.egg-info' (and everything under it)
+[3.976s] Copying ../../build/cctv_perception/cctv_perception.egg-info to /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_perception/lib/python3.10/site-packages/cctv_perception-0.0.0-py3.10.egg-info
+[3.980s] running install_scripts
+[4.041s] Installing color_tracker script to /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_perception/lib/cctv_perception
+[4.042s] Installing tf_debug script to /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_perception/lib/cctv_perception
+[4.043s] writing list of installed files to '/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_perception/install.log'
+[4.123s] Invoked command in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_perception' returned '0': PYTHONPATH=/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cctv_perception build --build-base /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_perception/build install --record /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_perception/install.log --single-version-externally-managed install_data

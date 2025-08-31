@@ -1,0 +1,29 @@
+[3.185s] Invoking command in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_navigation': PYTHONPATH=/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cctv_navigation build --build-base /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/build install --record /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/install.log --single-version-externally-managed install_data
+[4.025s] running egg_info
+[4.029s] writing ../../build/cctv_navigation/cctv_navigation.egg-info/PKG-INFO
+[4.030s] writing dependency_links to ../../build/cctv_navigation/cctv_navigation.egg-info/dependency_links.txt
+[4.031s] writing entry points to ../../build/cctv_navigation/cctv_navigation.egg-info/entry_points.txt
+[4.031s] writing requirements to ../../build/cctv_navigation/cctv_navigation.egg-info/requires.txt
+[4.032s] writing top-level names to ../../build/cctv_navigation/cctv_navigation.egg-info/top_level.txt
+[4.041s] reading manifest file '../../build/cctv_navigation/cctv_navigation.egg-info/SOURCES.txt'
+[4.043s] writing manifest file '../../build/cctv_navigation/cctv_navigation.egg-info/SOURCES.txt'
+[4.043s] running build
+[4.043s] running build_py
+[4.043s] copying cctv_navigation/safe_navigation_controller.py -> /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/build/lib/cctv_navigation
+[4.044s] copying cctv_navigation/debug_navigation.py -> /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/build/lib/cctv_navigation
+[4.049s] running install
+[4.051s] running install_lib
+[4.052s] copying /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/build/lib/cctv_navigation/safe_navigation_controller.py -> /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages/cctv_navigation
+[4.052s] copying /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/build/lib/cctv_navigation/debug_navigation.py -> /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages/cctv_navigation
+[4.053s] byte-compiling /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages/cctv_navigation/safe_navigation_controller.py to safe_navigation_controller.cpython-310.pyc
+[4.058s] byte-compiling /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages/cctv_navigation/debug_navigation.py to debug_navigation.cpython-310.pyc
+[4.060s] running install_data
+[4.060s] running install_egg_info
+[4.068s] removing '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages/cctv_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[4.069s] Copying ../../build/cctv_navigation/cctv_navigation.egg-info to /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages/cctv_navigation-0.0.0-py3.10.egg-info
+[4.072s] running install_scripts
+[4.139s] Installing debug script to /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/cctv_navigation
+[4.139s] Installing navigation_controller script to /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/cctv_navigation
+[4.140s] Installing navigation_controller_debug script to /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/cctv_navigation
+[4.142s] writing list of installed files to '/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/install.log'
+[4.240s] Invoked command in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_navigation' returned '0': PYTHONPATH=/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cctv_navigation build --build-base /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/build install --record /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/install.log --single-version-externally-managed install_data

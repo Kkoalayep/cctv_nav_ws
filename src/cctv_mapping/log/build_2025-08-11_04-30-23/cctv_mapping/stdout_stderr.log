@@ -1,0 +1,35 @@
+running egg_info
+creating build/cctv_mapping/cctv_mapping.egg-info
+writing build/cctv_mapping/cctv_mapping.egg-info/PKG-INFO
+writing dependency_links to build/cctv_mapping/cctv_mapping.egg-info/dependency_links.txt
+writing entry points to build/cctv_mapping/cctv_mapping.egg-info/entry_points.txt
+writing requirements to build/cctv_mapping/cctv_mapping.egg-info/requires.txt
+writing top-level names to build/cctv_mapping/cctv_mapping.egg-info/top_level.txt
+writing manifest file 'build/cctv_mapping/cctv_mapping.egg-info/SOURCES.txt'
+reading manifest file 'build/cctv_mapping/cctv_mapping.egg-info/SOURCES.txt'
+writing manifest file 'build/cctv_mapping/cctv_mapping.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/build/cctv_mapping/build
+creating /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/build/cctv_mapping/build/lib
+creating /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/build/cctv_mapping/build/lib/cctv_mapping
+copying cctv_mapping/map_builder.py -> /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/build/cctv_mapping/build/lib/cctv_mapping
+copying cctv_mapping/__init__.py -> /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/build/cctv_mapping/build/lib/cctv_mapping
+running install
+running install_lib
+creating /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/install/cctv_mapping/lib/python3.10/site-packages/cctv_mapping
+copying /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/build/cctv_mapping/build/lib/cctv_mapping/map_builder.py -> /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/install/cctv_mapping/lib/python3.10/site-packages/cctv_mapping
+copying /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/build/cctv_mapping/build/lib/cctv_mapping/__init__.py -> /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/install/cctv_mapping/lib/python3.10/site-packages/cctv_mapping
+byte-compiling /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/install/cctv_mapping/lib/python3.10/site-packages/cctv_mapping/map_builder.py to map_builder.cpython-310.pyc
+byte-compiling /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/install/cctv_mapping/lib/python3.10/site-packages/cctv_mapping/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/install/cctv_mapping/share/ament_index
+creating /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/install/cctv_mapping/share/ament_index/resource_index
+creating /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/install/cctv_mapping/share/ament_index/resource_index/packages
+copying resource/cctv_mapping -> /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/install/cctv_mapping/share/ament_index/resource_index/packages
+copying package.xml -> /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/install/cctv_mapping/share/cctv_mapping
+running install_egg_info
+Copying build/cctv_mapping/cctv_mapping.egg-info to /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/install/cctv_mapping/lib/python3.10/site-packages/cctv_mapping-0.0.0-py3.10.egg-info
+running install_scripts
+Installing map_builder script to /home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/install/cctv_mapping/lib/cctv_mapping
+writing list of installed files to '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping/build/cctv_mapping/install.log'

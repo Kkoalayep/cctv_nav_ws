@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/cctv_perception/cctv_perception.egg-info/PKG-INFO
+../../build/cctv_perception/cctv_perception.egg-info/SOURCES.txt
+../../build/cctv_perception/cctv_perception.egg-info/dependency_links.txt
+../../build/cctv_perception/cctv_perception.egg-info/entry_points.txt
+../../build/cctv_perception/cctv_perception.egg-info/requires.txt
+../../build/cctv_perception/cctv_perception.egg-info/top_level.txt
+../../build/cctv_perception/cctv_perception.egg-info/zip-safe
+cctv_perception/__init__.py
+cctv_perception/color_tracker.py
+resource/cctv_perception
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

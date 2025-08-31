@@ -1,0 +1,3 @@
+[console_scripts]
+astar_debug_navigation = cctv_navigation.astar_debug_navigation:main
+

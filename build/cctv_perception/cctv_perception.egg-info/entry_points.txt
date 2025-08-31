@@ -1,0 +1,4 @@
+[console_scripts]
+color_tracker = cctv_perception.color_tracker:main
+tf_debug = cctv_perception.tf_debug:main
+

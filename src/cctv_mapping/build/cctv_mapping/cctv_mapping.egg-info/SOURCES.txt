@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+build/cctv_mapping/cctv_mapping.egg-info/PKG-INFO
+build/cctv_mapping/cctv_mapping.egg-info/SOURCES.txt
+build/cctv_mapping/cctv_mapping.egg-info/dependency_links.txt
+build/cctv_mapping/cctv_mapping.egg-info/entry_points.txt
+build/cctv_mapping/cctv_mapping.egg-info/requires.txt
+build/cctv_mapping/cctv_mapping.egg-info/top_level.txt
+build/cctv_mapping/cctv_mapping.egg-info/zip-safe
+cctv_mapping/__init__.py
+cctv_mapping/map_builder.py
+resource/cctv_mapping
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,24 @@
+[0.023s] Invoking command in '/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_perception:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping:/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_gazebo -- -j12 -l12
+[0.608s] Invoked command in '/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_perception:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping:/opt/ros/humble /usr/bin/cmake --build /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_gazebo -- -j12 -l12
+[0.618s] Invoking command in '/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_perception:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping:/opt/ros/humble /usr/bin/cmake --install /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_gazebo
+[0.630s] -- Install configuration: ""
+[0.630s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo//launch
+[0.630s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo//launch/cctv_world.launch.py
+[0.630s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo//worlds
+[0.630s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo//worlds/cctv_world.world
+[0.630s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/ament_index/resource_index/package_run_dependencies/cctv_gazebo
+[0.630s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/ament_index/resource_index/parent_prefix_path/cctv_gazebo
+[0.630s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo/environment/ament_prefix_path.sh
+[0.630s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo/environment/ament_prefix_path.dsv
+[0.630s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo/environment/path.sh
+[0.631s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo/environment/path.dsv
+[0.631s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo/local_setup.bash
+[0.631s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo/local_setup.sh
+[0.631s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo/local_setup.zsh
+[0.631s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo/local_setup.dsv
+[0.631s] -- Installing: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo/package.dsv
+[0.631s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/ament_index/resource_index/packages/cctv_gazebo
+[0.632s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo/cmake/cctv_gazeboConfig.cmake
+[0.632s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo/cmake/cctv_gazeboConfig-version.cmake
+[0.632s] -- Up-to-date: /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_gazebo/share/cctv_gazebo/package.xml
+[0.634s] Invoked command in '/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_perception:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping:/opt/ros/humble /usr/bin/cmake --install /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_gazebo

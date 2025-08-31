@@ -1,0 +1,199 @@
+[0.228s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'cctv_mapping', 'cctv_navigation'][0m
+[0.229s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['cctv_mapping', 'cctv_navigation'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74c14dd43280>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74c14dd42dd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74c14dd42dd0>>, mixin_verb=('build',))[0m
+[0.563s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.563s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.563s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.563s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.563s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.563s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.563s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/mscrobotics2425laptop29/cctv_nav_ws'
+[0.563s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.564s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.564s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.564s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.564s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.564s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.564s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.564s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_gazebo) by extension 'ignore'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_gazebo) by extension 'ignore_ament_install'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_gazebo) by extensions ['colcon_pkg']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_gazebo) by extension 'colcon_pkg'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_gazebo) by extensions ['colcon_meta']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_gazebo) by extension 'colcon_meta'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_gazebo) by extensions ['ros']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_gazebo) by extension 'ros'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/cctv_gazebo' with type 'ros.ament_cmake' and name 'cctv_gazebo'[0m
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_mapping) by extension 'ignore'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_mapping) by extension 'ignore_ament_install'
+[0.587s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_mapping) by extensions ['colcon_pkg']
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_mapping) by extension 'colcon_pkg'
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_mapping) by extensions ['colcon_meta']
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_mapping) by extension 'colcon_meta'
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_mapping) by extensions ['ros']
+[0.588s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_mapping) by extension 'ros'
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/cctv_mapping' with type 'ros.ament_python' and name 'cctv_mapping'[0m
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_navigation) by extension 'ignore'
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_navigation) by extension 'ignore_ament_install'
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_navigation) by extensions ['colcon_pkg']
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_navigation) by extension 'colcon_pkg'
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_navigation) by extensions ['colcon_meta']
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_navigation) by extension 'colcon_meta'
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_navigation) by extensions ['ros']
+[0.589s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_navigation) by extension 'ros'
+[0.590s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/cctv_navigation' with type 'ros.ament_python' and name 'cctv_navigation'[0m
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_perception) by extension 'ignore'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_perception) by extension 'ignore_ament_install'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_perception) by extensions ['colcon_pkg']
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_perception) by extension 'colcon_pkg'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_perception) by extensions ['colcon_meta']
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_perception) by extension 'colcon_meta'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_perception) by extensions ['ros']
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cctv_perception) by extension 'ros'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/cctv_perception' with type 'ros.ament_python' and name 'cctv_perception'[0m
+[0.592s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.592s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.592s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.592s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.592s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.614s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'cctv_gazebo' in 'src/cctv_gazebo'
+[0.614s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'cctv_perception' in 'src/cctv_perception'
+[0.616s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.616s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.622s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 4 installed packages in /home/mscrobotics2425laptop29/cctv_nav_ws/install[0m
+[0.623s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 476 installed packages in /opt/ros/humble[0m
+[0.626s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.678s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_mapping' build argument 'cmake_args' from command line to 'None'
+[0.678s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_mapping' build argument 'cmake_target' from command line to 'None'
+[0.678s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.678s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.678s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.678s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.678s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.678s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.678s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.678s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cctv_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping', 'merge_install': False, 'path': '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping', 'symlink_install': False, 'test_result_base': None}[0m
+[0.678s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_navigation' build argument 'cmake_args' from command line to 'None'
+[0.678s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_navigation' build argument 'cmake_target' from command line to 'None'
+[0.679s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.679s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.679s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.679s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.679s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.679s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.679s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cctv_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.679s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cctv_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation', 'merge_install': False, 'path': '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_navigation', 'symlink_install': False, 'test_result_base': None}[0m
+[0.679s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.680s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.681s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping' with build type 'ament_python'
+[0.681s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cctv_mapping', 'ament_prefix_path')
+[0.688s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.688s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/share/cctv_mapping/hook/ament_prefix_path.ps1'
+[0.691s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/share/cctv_mapping/hook/ament_prefix_path.dsv'
+[0.692s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/share/cctv_mapping/hook/ament_prefix_path.sh'
+[0.695s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.696s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.709s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_navigation' with build type 'ament_python'
+[0.710s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cctv_navigation', 'ament_prefix_path')
+[0.710s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/share/cctv_navigation/hook/ament_prefix_path.ps1'
+[0.711s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/share/cctv_navigation/hook/ament_prefix_path.dsv'
+[0.712s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/share/cctv_navigation/hook/ament_prefix_path.sh'
+[0.715s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.715s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.018s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping'
+[1.019s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.019s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.291s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_navigation'
+[1.292s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.292s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.896s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping': PYTHONPATH=/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cctv_mapping build --build-base /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping/build install --record /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping/install.log --single-version-externally-managed install_data[0m
+[1.920s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_navigation': PYTHONPATH=/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cctv_navigation build --build-base /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/build install --record /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/install.log --single-version-externally-managed install_data[0m
+[2.280s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping' returned '0': PYTHONPATH=/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cctv_mapping build --build-base /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping/build install --record /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping/install.log --single-version-externally-managed install_data[0m
+[2.294s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping' for CMake module files
+[2.295s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping' for CMake config files
+[2.298s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/lib'
+[2.298s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/bin'
+[2.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/lib/pkgconfig/cctv_mapping.pc'
+[2.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/lib/python3.10/site-packages'
+[2.299s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cctv_mapping', 'pythonpath')
+[2.301s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/share/cctv_mapping/hook/pythonpath.ps1'
+[2.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/share/cctv_mapping/hook/pythonpath.dsv'
+[2.303s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/share/cctv_mapping/hook/pythonpath.sh'
+[2.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/bin'
+[2.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cctv_mapping)
+[2.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/share/cctv_mapping/package.ps1'
+[2.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/share/cctv_mapping/package.dsv'
+[2.310s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/share/cctv_mapping/package.sh'
+[2.312s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/share/cctv_mapping/package.bash'
+[2.314s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/share/cctv_mapping/package.zsh'
+[2.317s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/share/colcon-core/packages/cctv_mapping)
+[2.404s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation' for CMake module files
+[2.405s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_navigation' returned '0': PYTHONPATH=/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cctv_navigation build --build-base /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/build install --record /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_navigation/install.log --single-version-externally-managed install_data[0m
+[2.406s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation' for CMake config files
+[2.408s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib'
+[2.409s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/bin'
+[2.409s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/pkgconfig/cctv_navigation.pc'
+[2.409s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/lib/python3.10/site-packages'
+[2.409s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cctv_navigation', 'pythonpath')
+[2.410s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/share/cctv_navigation/hook/pythonpath.ps1'
+[2.410s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/share/cctv_navigation/hook/pythonpath.dsv'
+[2.411s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/share/cctv_navigation/hook/pythonpath.sh'
+[2.411s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/bin'
+[2.411s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cctv_navigation)
+[2.412s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/share/cctv_navigation/package.ps1'
+[2.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/share/cctv_navigation/package.dsv'
+[2.414s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/share/cctv_navigation/package.sh'
+[2.415s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/share/cctv_navigation/package.bash'
+[2.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/share/cctv_navigation/package.zsh'
+[2.417s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_navigation/share/colcon-core/packages/cctv_navigation)
+[2.418s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.418s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.418s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[2.419s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.434s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.435s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.435s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.473s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.474s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/local_setup.ps1'
+[2.477s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/mscrobotics2425laptop29/cctv_nav_ws/install/_local_setup_util_ps1.py'
+[2.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/setup.ps1'
+[2.485s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/local_setup.sh'
+[2.487s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/mscrobotics2425laptop29/cctv_nav_ws/install/_local_setup_util_sh.py'
+[2.488s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/setup.sh'
+[2.490s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/local_setup.bash'
+[2.491s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/setup.bash'
+[2.493s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/local_setup.zsh'
+[2.494s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/mscrobotics2425laptop29/cctv_nav_ws/install/setup.zsh'

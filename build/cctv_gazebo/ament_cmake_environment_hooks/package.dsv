@@ -1,0 +1,4 @@
+source;share/cctv_gazebo/local_setup.bash
+source;share/cctv_gazebo/local_setup.dsv
+source;share/cctv_gazebo/local_setup.sh
+source;share/cctv_gazebo/local_setup.zsh

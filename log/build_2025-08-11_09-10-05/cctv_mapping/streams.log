@@ -1,0 +1,21 @@
+[1.046s] Invoking command in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping': PYTHONPATH=/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cctv_mapping build --build-base /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping/build install --record /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping/install.log --single-version-externally-managed install_data
+[1.228s] running egg_info
+[1.229s] writing ../../build/cctv_mapping/cctv_mapping.egg-info/PKG-INFO
+[1.229s] writing dependency_links to ../../build/cctv_mapping/cctv_mapping.egg-info/dependency_links.txt
+[1.229s] writing entry points to ../../build/cctv_mapping/cctv_mapping.egg-info/entry_points.txt
+[1.229s] writing requirements to ../../build/cctv_mapping/cctv_mapping.egg-info/requires.txt
+[1.229s] writing top-level names to ../../build/cctv_mapping/cctv_mapping.egg-info/top_level.txt
+[1.230s] reading manifest file '../../build/cctv_mapping/cctv_mapping.egg-info/SOURCES.txt'
+[1.231s] writing manifest file '../../build/cctv_mapping/cctv_mapping.egg-info/SOURCES.txt'
+[1.231s] running build
+[1.231s] running build_py
+[1.231s] running install
+[1.231s] running install_lib
+[1.232s] running install_data
+[1.232s] running install_egg_info
+[1.233s] removing '/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/lib/python3.10/site-packages/cctv_mapping-0.0.0-py3.10.egg-info' (and everything under it)
+[1.233s] Copying ../../build/cctv_mapping/cctv_mapping.egg-info to /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/lib/python3.10/site-packages/cctv_mapping-0.0.0-py3.10.egg-info
+[1.234s] running install_scripts
+[1.248s] Installing map_builder script to /home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/lib/cctv_mapping
+[1.248s] writing list of installed files to '/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping/install.log'
+[1.270s] Invoked command in '/home/mscrobotics2425laptop29/cctv_nav_ws/src/cctv_mapping' returned '0': PYTHONPATH=/home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mscrobotics2425laptop29/cctv_nav_ws/install/cctv_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cctv_mapping build --build-base /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping/build install --record /home/mscrobotics2425laptop29/cctv_nav_ws/build/cctv_mapping/install.log --single-version-externally-managed install_data
